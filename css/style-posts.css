@@ -1,0 +1,181 @@
+nav {
+  background-color: rgb(31, 42, 60);
+  border-radius: 0px;
+  padding: 10px;
+  
+
+}
+#menu-inicial{
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  height: 10px;
+  
+}
+ul li {
+  display: inline;
+  padding: 100px;
+
+}
+a{
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  }
+/*------------------------------------------------*/
+  body{
+    margin: 0;
+    position: absolute;
+    
+  }
+  #container-imagem {
+    position: relative;
+    height: 200vh;
+    width: 100vw;
+    background: url('../imagens/fundo_blog.jpg');
+    background-size: cover;
+  }
+
+/*------------------------------------------------*/
+  .container{
+    background-color: rgba(210, 218, 225, 0.615);
+    border-style: solid;
+    border-color: rgb(9, 12, 17);
+    width: 80%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+  }
+/*------------------------------------------------*/
+  #apresentacao-div{
+    background-color: #d4d9dc00;
+    width: 90%;
+    height: 13%;
+    border-radius: 40px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  #apresentacao-div h1{
+    color: rgb(31, 42, 60);
+    position: absolute;
+    width: 80%;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+  }
+  #apresentacao-div p{
+    color: rgb(31, 42, 60);
+    position: absolute;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%)
+
+  }
+  #apresentacao-div a{
+    color: rgb(31, 42, 60);
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  #foto_inicial{
+    background-color: #460ee000;
+      width: 600px;
+      height: 300px;
+      position: relative;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+    #foto_inicial img{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+    #texto{
+      color: rgb(31, 42, 60);
+      position: absolute;
+      width: 80%;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      top: 58%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+    }
+  #video{
+    background-color: #e3def000;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #video video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #sons{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #sons sourse{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+ /*------------------------------------------------*/  
+  .final{
+  position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 12%;
+   background-color: rgb(31, 42, 60);
+   color: white;
+   text-align: center;
+  }
+  .final p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .logotipo{
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+  }
+  .logotipo img{
+    width: 40px;
+    height: 40px;
+  
+  }
+
