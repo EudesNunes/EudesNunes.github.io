@@ -40,7 +40,7 @@ nav {
       border-color: rgb(9, 12, 17);
       width: 80%;
       height: 65%;
-      position: absolute;
+      position: fixed;
       top: 45%;
       left: 50%;
       transform: translate(-50%, -50%);
@@ -48,42 +48,45 @@ nav {
     }
     #apresentacao-div{
       background-color: #d4d9dc00;
-      width: 500px;
-      height: 200px;
+      width: 80%;
+      height: 80%;
       border-radius: 30px;
-      position: absolute;
-      top: 25%;
+      position: fixed;
+      top: 30%;
       left: 25%;
       transform: translate(-50%, -50%);
       
+      
     }
     #apresentacao-div h1{
-      position: absolute;
-      width: 600px;
-      font-size: 50px;
+      font-size: 250%;
       font-family: 'Times New Roman', Times, serif;
-      top: 10%;
+      width: 100%;
+      height: 100%;
+      border-radius: 50px;
+      position: fixed;
+      top: 55%;
       left: 50%;
-      transform: translate(-50%, -50%)
+      transform: translate(-50%, -50%);
+      
 
     }
     #apresentacao-div p{
 
       font-family: 'Times New Roman', Times, serif;
-      width: 400px;
-      font-size: 20px;
+      width: 60%;
+      font-size: 170%;
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 35%;
+      left: 55%;
       transform: translate(-50%, -50%)
-
     }
     #posts-div{
       background-color: #d4d9dc00;
-      width: 500px;
-      height: 300px;
+      width: 50%;
+      height: 55%;
       border-radius: 30px;
-      position: absolute;
+      position: fixed;
       top: 70%;
       left: 25%;
       transform: translate(-50%, -50%);
@@ -91,46 +94,40 @@ nav {
     }
     #posts-div a{
       color: black;
+
     }
     
     #posts-div h1{
       position: absolute;
-      width: 400px;
-      font-size: 35px;
+      width: 80%;
       font-family: 'Times New Roman', Times, serif;
-      top: 10%;
+      top: -60%;
       left: 50%;
       transform: translate(-50%, -50%)
 
     }
     #posts-div table{
-      border: 3,px solid;
-      font-family: 'Times New Roman', Times, serif;
-      width: 520px;
-      font-size: 20px;
-      position: absolute;
-      top: 60%;
-      left: 50%;
+      width: 90%;
+      height: 90%;
+      border-radius: 50px;
+      position: fixed;
+      top: 40%;
+      left: 55%;
       transform: translate(-50%, -50%);
-      text-align: center;
-      border-collapse: collapse;
-      
 
     }
     #posts-div th{
-      border: 2px solid;
+      border: 1px solid;
       font-family: 'Times New Roman', Times, serif;
-      
-      
-
+      font-size: 70%;
     }
     
     #img-div{
   
       background-color: #d4d9dc00;
-      width: 470px;
-      height: 470px;
-      position: absolute;
+      width: 40%;
+      height: 80%;
+      position: fixed;
       top: 50%;
       left: 77%;
       transform: translate(-50%, -50%);
@@ -140,14 +137,14 @@ nav {
       width: 100%;
       height: 100%;
       border-radius: 50px;
-      position: absolute;
+      position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
 
     }
         /*---------------------------------------------*/
-        
+
 
     /*---------------------------------------------*/
      

@@ -106,7 +106,8 @@ a{
       position: absolute;
       top: 50%;
       left: 55%;
-      transform: translate(-50%, -50%)
+      transform: translate(-50%, -50%);
+      text-align: justify;
 
   }
   #img_um-div{
@@ -159,7 +160,9 @@ a{
       position: absolute;
       top: 50%;
       left: 55%;
-      transform: translate(-50%, -50%)
+      transform: translate(-50%, -50%);
+      text-align: justify;
+
 
 }
 #img_dois-div{
@@ -191,6 +194,8 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+        text-align: justify;;
+
   
 }
 #post_tres-div h1{
@@ -211,7 +216,9 @@ a{
       position: absolute;
       top: 50%;
       left: 55%;
-      transform: translate(-50%, -50%)
+      transform: translate(-50%, -50%);
+      text-align: justify;
+
 
 }
 #img_tres-div{
@@ -260,7 +267,9 @@ a{
     position: absolute;
     top: 50%;
     left: 55%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    text-align: justify;
+
 
 }
 #img_quatro-div{
